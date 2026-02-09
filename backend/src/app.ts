@@ -17,6 +17,8 @@ app.use("/orders", orderRoutes);
 const PORT = process.env.PORT || 8080;
 
 sequelize.sync().then(() => {
+//  sequelize.sync({alter : true}).then(() => {
+
   console.log("Database connected");
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
