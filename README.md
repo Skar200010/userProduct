@@ -4,6 +4,8 @@ fronted part (maraketplace)
 
 This is the frontend of a marketplace application where users can browse products by category, add items to cart with quantity, and place orders.
 
+in projectimgs folder i have send fronted ui images with steps
+
 ## 🧰 Tech Stack
 
 - React (Vite)
